@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+  }
+  
+  section {
+    scroll-margin: 50px;
+  }
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  header {
+    background-color: rgb(57, 57, 181);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px 0;
+  }
+  .logo {
+    font-size: 32px;
+    font-weight: 600;
+    padding-left: 50px;
+  }
+  nav ul {
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li {
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in;
+  }
+  nav ul li:hover {
+    border-bottom: 2px solid white;
+    transition: 0.2s ease-in;
+  }
+  /* =============================================================================== */
+   .mytunes-section-1{
+    background-image: url(images/hero_image.png);
+    height: 100vh;
+    color: white;
+    text-align: center;
+   
+   }
+   .mytunes-section-1 h1{
+         font-size: 2.4rem;
+         padding: 240px 0 20px 0;
+        
+   }
+   .mytunes-section-1 h3{
+    font-size: 1rem;
+    padding: 0 0 20px 0;
+  
+}
+.mytunes-section-1 p{
+    font-size: 15px;
+
+}
+
+.mytune-section-2{
+    text-align: center;
+    color: white;
+    background-color: rgb(26, 26, 126);
+    padding-top: 50px;
+}
+
+.container h2{
+    margin-bottom: 30px;
+}
+.container h3{
+    margin-bottom: 30px;
+}
+.container p{
+  margin-top: 30px;
+  font-size: 12px;
+}
+.trial-button{
+  align-items: center;
+  margin-top: 30px;
+}
+.trial-button button{
+    padding: 8px;
+    background-color: red;
+    color: white;
+    border: none;
+    transition: 0.2s ease-in-out;
+}
+button:hover {
+  transition: 0.2s ease-in-out;
+  opacity: 0.8;
+}
+.ipad-iphone-img {
+  margin-top: -400px;
+  position: relative;
+  top: 400px;
+}
+.ipad-iphone-img img{
+   height: 600px;
+   margin-top: 50px;
+   margin-bottom: 100px;
+}
+
+.about-music {
+  margin-top: 350px;
+  text-align: center;
+}  
+.secondary-btn{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  
+}
+.secondary-btn button{
+     padding: 8px;
+     background-color: rgb(17, 17, 104);
+     color: white;
+     border: none;
+}
+.mac-img img{
+  height: 400px;
+  margin-bottom: 50px;
+}
+
+
+.video-section {
+  background-image: url(images/video.png);
+  min-height: 800px;
+  display: grid;
+  place-items: center;
+  color: white;
+  text-align: center;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+ #container h3 {
+  margin-top: -200px;
+}
+#container p {
+  padding: 50px;
+  font-size: 14px;
+}
+
+.gift-section {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+  gap: 50px;
+  scroll-margin: 120px;
+}
+
+.gift-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container-fluid{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.secondary-btn button{
+  padding: 9px 13px 9px 13px;
+  background-color: rgb(22, 22, 74);
+  color: white;
+  border: none;
+}
+
+  /* ================================footer============================================ */
+  .footer-upper {
+    background-color:  rgb(57, 57, 181);
+    padding: 100px;
+  }
+  .footer-upper .container {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+  }
+  
+  .footer-upper h4 {
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+  }
+  .footer-lower {
+    background-color:  rgb(4, 4, 91);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
